@@ -59,7 +59,7 @@ not a network error).
 ### A Suggestion
 I would HIGHLY recommend not actually trying to get the contents of a webpage designed for humans. First,
 the data will come in very slowly (fifteen seconds to load google? Probably.). Second, it's basically impossible to
-scrape anything in C++ without a standard library, so I'm not sure what you'd even do with that. Instead, set up a
+scrape anything in C++ without the standard library, so I'm not sure what you'd even do with that. Instead, set up a
 server somewhere that gets the webpage of interest and processes it down to the absolute bare minimum, and then get from
 the server.
 

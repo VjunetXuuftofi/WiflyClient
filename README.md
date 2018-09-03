@@ -33,7 +33,7 @@ client.open_connection("some_domain.com")
 
 Fourth, make a request:
 ```
-client.make_request("GET /some_subdomain?with=some&parameters=set")
+client.make_request("GET /some_page?with=some&parameters=set")
 ```
 
 Finally, iterate through the response to the request:

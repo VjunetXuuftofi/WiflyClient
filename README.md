@@ -4,7 +4,7 @@ I was extremely frustrated with the state of the WiFly library. As far as I can 
 My WiFly worked, and I was just trying to make a simple request to a server, yet everything kept failing with the
 existing library. I tried to figure out why, but eventually gave up. Instead, I began sending serial commands directly
 to the module, and that actually did work. So I built a library that uses some of the WiFly library (mostly the low-level
-parts that actually work) and abstracts away the annoying serial stuff. I only wrote WiflyClient.h and WiflyClient.cpp, the rest is from the existing library.
+parts that actually work) and abstracts away the annoying serial stuff (though it also makes it easy to send serial commands if necessary). I only wrote WiflyClient.h and WiflyClient.cpp, the rest is from the existing library.
 
 
 ### Usage

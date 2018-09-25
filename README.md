@@ -59,7 +59,7 @@ not a network error).
 ### A Suggestion
 I would HIGHLY recommend not actually trying to get the contents of a webpage designed for humans. First,
 the data will come in very slowly (fifteen seconds to load google? Probably.). Second, it's basically impossible to
-scrape anything in C++ without the standard library, so I'm not sure what you'd even do with that. Instead, set up a
+scrape anything in arduino since there are no good libraries that I know of, so I'm not sure what you'd even do with that. Instead, set up a
 server somewhere that gets the webpage of interest and processes it down to the absolute bare minimum, and then get from
 the server.
 
@@ -68,4 +68,4 @@ I like bars of plain milk chocolate.
 
 ### In case you are also using my arduino
 Yes I know, I soldered the shield backwards, crooked, and also in a place I didn't need to. It was my first time
-soldering, ok?
+soldering, ok? If you turn it on and send commands, and the red indicator light never blinks, you need to jam the pins together more on the crooked side. Trust me, if you jam it enough, it will work.
